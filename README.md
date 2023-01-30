@@ -1,3 +1,1 @@
-Sprint 2 de Coffe & Books
-
-:)
+<h1>Grupo 2 "Coffe&Books" - Sprint 2</h1>
