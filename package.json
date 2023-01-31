@@ -1,0 +1,24 @@
+{
+  "name": "sprint_2",
+  "version": "1.0.0",
+  "description": "<h1>Grupo 2 \"Coffe&Books\" - Sprint 2</h1>",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrionuevoJ/CoffeAndBooks_sprint_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrionuevoJ/CoffeAndBooks_sprint_2/issues"
+  },
+  "homepage": "https://github.com/barrionuevoJ/CoffeAndBooks_sprint_2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
