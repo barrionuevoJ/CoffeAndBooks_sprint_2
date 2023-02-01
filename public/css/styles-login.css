@@ -7,6 +7,7 @@
             }
             body {
               font-family: "Inter", sans-serif;
+
             }
             .box-formulario {
               display: flex;
@@ -19,7 +20,7 @@
               margin: 0 auto;
               max-width: 550px;
               width: 100%;
-              background: white;
+              background: rgb(255, 255, 255);
             }
           
             .Formulario {
@@ -50,7 +51,7 @@
               color: #536387;
             }
             .Formulario:focus {
-              border-color: #6A64F1;
+              border-color: #ff00ea;
             }
             .input-label {
               color: #07074D;
@@ -61,13 +62,13 @@
               margin-bottom: 18px;
             }
             .Formulario:focus + .input-label {
-              color: #6A64F1;
+              color: #ea00ff;
             }
           
             
             .btn-Iniciar {
               font-size: 16px;
-              border-radius: 5px;
+              border-radius: 12px;
               padding: 12px 25px;
               border: none;
               font-weight: 500;
