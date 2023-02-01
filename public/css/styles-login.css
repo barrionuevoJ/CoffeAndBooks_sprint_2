@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: red;
+    background-color: #1d63b3;
+}
+
+
+.labels{
+    justify-content: center;
+    display: flex;
 }
