@@ -12,14 +12,44 @@
 
     </nav>
     <main>
-        <form>
-            <div class="labels">
-            <label for="usuario">Nombre usuario</label><br>
-            <input type="text" id="usuario" name="usuario">
-            <label for="contraseña">Ingrese su contraseña</label><br>
-            <input type="password" id="contraseña" name="contraseña">
-        </div>
-        </form>
+        <div class="box-formulario">
+            
+            <div class="Caja-form">
+              <form  method="POST">
+                  <div class="Formulario">
+                    <div>
+                        <input
+                        type="text"
+                        name="nombreUsuario"
+                        id="nombreUsuario"
+                        placeholder="Ingrese Nombre de Usuario"
+                        class="inputs"
+                        />
+                        <label for="firstname" class="input-label"> Nombre de Usuario</label>
+                    </div>
+                    <div>
+                        <input
+                        type="password"
+                        name="contraUsuario"
+                        id="contraUsuario"
+                        placeholder="Ingrese su contraseña"
+                        class="inputs"
+                        />
+                        <label for="contraUsuario" class="input-label"> Contraseña </label>
+                    </div>
+                  </div>
+          
+                  <button class="btn-Iniciar">
+                      Iniciar Sesion
+                  </button>
+                  
+                  </div>
+             
+          
+              </form>
+            </div>
+          </div>
+          
     </main>
     <footer>
 
