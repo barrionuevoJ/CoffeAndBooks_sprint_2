@@ -45,7 +45,7 @@
               border: none;
               border-bottom: 1px solid #DDE3EC;
               font-weight: 500;
-              font-size: 12px;
+              font-size: 14px;
               color: #07074D;
               outline: none;
               resize: none;
@@ -60,10 +60,10 @@
             .input-label {
               color: #07074D;
               font-weight: 500;
-              font-size: 14px;
-              line-height: 24px;
+              font-size: 18px;
+              line-height: 20px;
               display: block;
-              margin-bottom: 18px;
+              margin-bottom: 20px;
             }
             .Formulario:focus + .input-label {
               color: #ea00ff;
@@ -71,6 +71,7 @@
             
            
             button {
+              width: 200px;
               margin: 25px 0px 0px -5px;
               padding: 1.3em 3em;
               font-size: 12px;
