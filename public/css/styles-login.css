@@ -96,5 +96,6 @@
             .check input{
               accent-color: red;
               justify-items: right;
+              margin: 0px 0px 10px 65px;
             }
           
