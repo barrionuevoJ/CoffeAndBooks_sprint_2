@@ -40,7 +40,6 @@
               padding-bottom: 10px;
               border: none;
               border-bottom: 1px solid #DDE3EC;
-              background: #FFFFFF;
               font-weight: 500;
               font-size: 16px;
               color: #07074D;
@@ -67,37 +66,7 @@
           
            
             button {
-              margin: 22px;
-              padding: 1.3em 3em;
-              font-size: 12px;
-              text-transform: uppercase;
-              letter-spacing: 2.5px;
-              font-weight: 500;
-              color: #fff;
-              background-color: rgb(9, 163, 252);
-              border: none;
-              border-radius: 45px;
-              box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-              transition: all 0.3s ease 0s;
-              cursor: pointer;
-              outline: none;
-            }
-            
-            button:hover {
-              background-color: #23c483;
-              box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-              color: #fff;
-              transform: translateY(-7px);
-            }
-            
-            button:active {
-              transform: translateY(-1px);
-            }
-
-
-
-            button {
-              margin: 22px;
+              margin: 25px 0px 0px -5px;
               padding: 1.3em 3em;
               font-size: 12px;
               text-transform: uppercase;

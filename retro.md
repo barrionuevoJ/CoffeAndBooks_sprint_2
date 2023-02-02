@@ -1,1 +1,1 @@
-<h1>Retrospectiva del Trabajo Integrador</h1>
+<h1>Perspectiva del trabajo integrador</h1>
