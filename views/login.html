@@ -4,19 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles-login.css">
+    <link rel="stylesheet" href="css/styles-login.css">
     <title>Coffe&Books</title>
 </head>
 <body>
     <nav>
-
+        <!--TODO hacer el navbar y el footer -->
     </nav>
     <main>
-        <form>
-            <fieldset>
-                <input type="text">
-            </fieldset>
-        </form>
+        <div class="box-formulario">
+            
+            <div class="Caja-form">
+              <form  method="POST">
+                  <div class="Formulario">
+                    <div class="input-user">
+                        <input
+                        type="text"
+                        name="nombreUsuario"
+                        id="nombreUsuario"
+                        placeholder="Ingrese Usuario"
+                        class="inputs"
+                        />
+                        <label for="firstname" class="input-label"> Nombre de Usuario</label>
+                    </div>
+                    <div class="input-pass">
+                        <input
+                        type="password"
+                        name="contraUsuario"
+                        id="contraUsuario"
+                        placeholder="Ingrese su contraseña"
+                        class="inputs"
+                        />
+                        <label for="contraUsuario" class="input-label"> Contraseña </label>
+                        
+                    
+                    </div><br>
+                    <div class="check"> 
+                        <label for="pass-check">Recordar contraseña<input type="checkbox" id="pass-check" /></label>
+                    </div>  
+                </div>
+                  <p><a href="">¿Olvidó su contraseña?</a></p>
+                  <button class="btn-Iniciar">
+                      Iniciar Sesion
+                  </button>
+                  
+                  
+                  </div>
+             
+          
+              </form>
+            </div>
+          </div>
+          
     </main>
     <footer>
 
