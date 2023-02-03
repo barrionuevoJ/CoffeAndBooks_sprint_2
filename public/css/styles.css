@@ -5,6 +5,7 @@
 }
 
 body {
+    background-image: url(../Images/Background-mobile.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -82,10 +83,6 @@ footer div.redes i {
 }
 
 @media (min-width: 361px) {
-    body {
-        background-image: url(../Images/Background-mobile.png);
-    }
-
     header {
         justify-content: space-between;
         align-items: center;
@@ -127,8 +124,4 @@ footer div.redes i {
     }
 }
 
-@media (min-width: 1024px) {
-    body {
-        background-image: url(../Images/background.png);
-    }
-}
+@media (min-width: 1024px) {}
