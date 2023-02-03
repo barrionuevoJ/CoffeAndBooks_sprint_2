@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    background-color: #7d0078;
+}
+
+main section.offers {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 7vh 0px;
+    border-radius: 30px;
+}
+
+main section div.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2vh 3vw 3vh 3vw;
+}
+
+main section h2 {
+    margin: 10px 0px;
+}
+
+main section article {
+    margin: 10px 0px;
+}
+
+main section article img {
+    width: 30vw;
+}
+
+main section h3 {
+    margin: 20px 0px;
+}
+
+article div.main-article {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+/* boton de compra */
+
+main section article button.btn-compra {
+    padding: 20px 45px;
+    border-radius: 25px;
+    border-style: none;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 52%);
+    background-color: #7c0077;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #7d0078;
+}
+
+footer div.redes {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer div.redes i {
+    color: black;
+}
+
+@media (min-width: 361px) {
+    body {
+        background-image: url(../Images/Background-mobile.png);
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        padding-left: 7vw;
+        font-size: 2em;
+    }
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    div.burger-menu {
+        text-align: center;
+    }
+
+    div.burger-menu i {
+        color: #FFF;
+        font-size: 2em;
+        margin: 5vw 7vw 5vw 0px;
+        padding: 1vw;
+    }
+
+    footer div.footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vh;
+        align-items: center;
+    }
+
+    footer div.copyright {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        background-color: #b607af;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-image: url(../Images/background.png);
+    }
+}
