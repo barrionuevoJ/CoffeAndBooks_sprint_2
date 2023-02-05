@@ -64,6 +64,8 @@ main section article button.btn-compra {
     border-style: none;
     box-shadow: 0 5px 10px rgb(0 0 0 / 52%);
     background-color: #7c0077;
+    cursor: pointer;
+    color:white;
 }
 
 /* Footer */
