@@ -16,7 +16,9 @@ header {
     background-color: #7d0078;
 }
 
-main section.offers {
+main section.offers,
+main section.librosMasVendidos,
+main section.interest {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -62,6 +64,8 @@ main section article button.btn-compra {
     border-style: none;
     box-shadow: 0 5px 10px rgb(0 0 0 / 52%);
     background-color: #7c0077;
+    cursor: pointer;
+    color: white;
 }
 
 /* Footer */
@@ -70,17 +74,24 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #7d0078;
+    color: white;
 }
 
 footer div.redes {
     display: flex;
     flex-direction: column;
-    color: white;
+    align-items: center;
 }
 
 footer div.redes i {
+    margin-right: 5px;
     color: black;
 }
+
+footer div.copyright {
+    color: black;
+}
+
 
 @media (min-width: 361px) {
     header {
@@ -89,8 +100,12 @@ footer div.redes i {
     }
 
     header h1 {
-        padding-left: 7vw;
-        font-size: 2em;
+        padding-left: 4vw;
+        font-size: 1.8em;
+    }
+
+    header div.left-side {
+        display: none;
     }
 
     main {
@@ -113,7 +128,36 @@ footer div.redes i {
         display: flex;
         justify-content: space-between;
         padding: 2vh;
+        align-items: flex-start;
+    }
+
+    footer div.footer-left {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+    }
+
+    footer div.footer-left .contacts h4 {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    footer div.footer-left p {
+        font-size: 0.9em;
+    }
+
+    footer div.footer-mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.footer-mid .text p {
+        padding: 3px 0;
+    }
+
+    footer div.redes p {
+        padding: 5px 0;
     }
 
     footer div.copyright {
@@ -122,6 +166,122 @@ footer div.redes i {
         font-weight: bold;
         background-color: #b607af;
     }
+
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    header {
+        height: 10vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        padding-left: 4vw;
+        font-size: 1.8em;
+    }
+
+    header div.titulo {
+        display: none;
+    }
+
+    header div.left-side {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+
+    header div.right-side a.account,
+    header div.right-side a.cart,
+    header div.left-side a {
+        margin: 0 2vw;
+        text-decoration: none;
+        color: white;
+    }
+
+    header div.left-side a:hover {
+        border-bottom: 1px solid violet;
+        color: black;
+    }
+
+    header div.logo-header {
+        display: flex;
+        flex: 2;
+        justify-content: center;
+    }
+
+    header div.right-side {
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+
+    header div.right-side a.account {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #b607af;
+        font-size: 12px;
+    }
+
+    header div.right-side a.account:hover {
+        background-color: #5e075b;
+    }
+
+    header div.right-side a.cart {
+        margin: 0;
+        font-size: 1.4em;
+    }
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    div.burger-menu {
+        display: none;
+    }
+
+    footer div.footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vh;
+        align-items: flex-start;
+    }
+
+    footer div.footer-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.footer-left .contacts h4 {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    footer div.footer-left p {
+        font-size: 0.9em;
+    }
+
+    footer div.footer-mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer div.footer-mid .text p {
+        padding: 3px 0;
+    }
+
+    footer div.redes p {
+        padding: 5px 0;
+    }
+
+    footer div.copyright {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+        background-color: #b607af;
+    }
+
+}

@@ -7,15 +7,19 @@
 }
 body {
   font-family: "Inter", sans-serif;
-
+    background-image: url(../Images/Background-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+
 html{
   height:100%;
   background-color: #FC84CC;
 }
 .box-formulario {
-  display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   padding: 150px 0px 40px 40px;
 }
@@ -43,11 +47,10 @@ html{
 
 
 .inputs {
+  border: solid 2px #7D0078;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border: none;
-  border-bottom: 1px solid #DDE3EC;
   font-weight: 500;
   font-size: 14px;
   color: #07074D;
@@ -55,6 +58,9 @@ html{
   resize: none;
   border-radius: 18px;
 }
+
+
+
 .Formulario::placeholder {
   color: #536387;
 }
@@ -121,3 +127,37 @@ form{
   flex-direction: column;
 }
 
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #7d0078;
+}
+
+footer div.redes {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+footer div.redes i {
+  color: black;
+}
+
+
+
+@media (min-width: 361px) {
+  footer div.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+    align-items: center;
+}
+
+footer div.copyright {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #b607af;
+}
+}
