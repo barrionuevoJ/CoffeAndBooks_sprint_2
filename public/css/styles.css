@@ -42,10 +42,6 @@ main section article {
     margin: 10px 0px;
 }
 
-main section article img {
-    width: 30vw;
-}
-
 main section h3 {
     margin: 20px 0px;
 }
@@ -77,21 +73,9 @@ footer {
     color: white;
 }
 
-footer div.redes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer div.redes i {
-    margin-right: 5px;
-    color: black;
-}
-
 footer div.copyright {
-    color: black;
+    color: white;
 }
-
 
 @media (min-width: 361px) {
     header {
@@ -108,9 +92,18 @@ footer div.copyright {
         display: none;
     }
 
+    header div.right-side {
+        display: none;
+    }
+
     main {
         width: 90%;
         margin: 0 auto;
+    }
+
+
+    main section article img {
+        width: 30vw;
     }
 
     div.burger-menu {
@@ -156,15 +149,30 @@ footer div.copyright {
         padding: 3px 0;
     }
 
-    footer div.redes p {
+    footer div.footer-top .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer div.footer-top .redes i {
+        margin-right: 5px;
+        color: black;
+    }
+
+    footer div.footer-top .redes p {
         padding: 5px 0;
+    }
+
+    footer div.subscribe {
+        display: none;
     }
 
     footer div.copyright {
         text-align: center;
         font-size: 1em;
-        font-weight: bold;
         background-color: #b607af;
+        border-top: none;
     }
 
 }
@@ -206,7 +214,7 @@ footer div.copyright {
 
     header div.logo-header {
         display: flex;
-        flex: 2;
+        flex: 1;
         justify-content: center;
     }
 
@@ -214,13 +222,15 @@ footer div.copyright {
         display: flex;
         flex: 1;
         align-items: center;
+        justify-content: center;
     }
 
     header div.right-side a.account {
-        padding: 10px;
+        padding: 2%;
         border-radius: 10px;
         background-color: #b607af;
         font-size: 12px;
+        text-align: center;
     }
 
     header div.right-side a.account:hover {
@@ -237,6 +247,22 @@ footer div.copyright {
         margin: 0 auto;
     }
 
+    main section.librosMasVendidos a,
+    main section.offers a,
+    main section.interest a {
+        text-decoration: none;
+        color: white;
+    }
+
+    main section article img {
+        width: 15vw;
+    }
+
+
+    main section article button.btn-compra:hover {
+        background-color: #5e075b;
+    }
+
     div.burger-menu {
         display: none;
     }
@@ -244,7 +270,7 @@ footer div.copyright {
     footer div.footer-top {
         display: flex;
         justify-content: space-between;
-        padding: 2vh;
+        padding: 7vh;
         align-items: flex-start;
     }
 
@@ -273,15 +299,52 @@ footer div.copyright {
         padding: 3px 0;
     }
 
-    footer div.redes p {
-        padding: 5px 0;
+    footer div.footer-top .redes {
+        display: none;
     }
 
+    footer div.subscribe {
+        display: block;
+    }
+
+    footer div.subscribe div.mail {
+        display: flex;
+        margin-top: 2vh;
+    }
+
+    footer div.subscribe .mail button,
+    footer div.subscribe .mail input {
+        padding: 15px 12px;
+        border-style: none;
+        outline: none;
+    }
+
+    footer div.subscribe .mail input {
+        border-radius: 8px 0 0 8px;
+    }
+
+    footer div.subscribe .mail button {
+        background-color: #478eff;
+        color: white;
+        cursor: pointer;
+        border-radius: 0 8px 8px 0;
+    }
+
+    
     footer div.copyright {
+        display: flex;
         text-align: center;
         font-size: 1em;
-        font-weight: bold;
-        background-color: #b607af;
+        border-top: 1px solid white;
+        padding: 5vh;
+        background-color: #7d0078;
+        justify-content: space-between;
+    }
+
+    footer div.copyright span {
+        text-align: center;
+        font-size: 1em;
+        border-top: none;
     }
 
 }
