@@ -154,7 +154,7 @@ footer div.copyright {
         flex-direction: column;
         align-items: center;
     }
-    
+
     footer div.footer-top .redes i {
         margin-right: 5px;
         color: black;
@@ -323,6 +323,12 @@ footer div.copyright {
         border-radius: 8px 0 0 8px;
     }
 
+    footer div.logoCopy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     footer div.subscribe .mail button {
         background-color: #478eff;
         color: white;
@@ -330,21 +336,26 @@ footer div.copyright {
         border-radius: 0 8px 8px 0;
     }
 
-    
+    footer div.logoCopy span {
+        width: 0;
+    }
+
+
     footer div.copyright {
         display: flex;
         text-align: center;
         font-size: 1em;
-        border-top: 1px solid white;
+        border-top: 1px solid #7a2e76;
         padding: 5vh;
         background-color: #7d0078;
-        justify-content: space-between;
+        width: 90%;
     }
 
     footer div.copyright span {
         text-align: center;
         font-size: 1em;
         border-top: none;
+        width: 45%;
     }
 
 }
