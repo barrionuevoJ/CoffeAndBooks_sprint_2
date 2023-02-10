@@ -147,6 +147,7 @@ footer div.copyright {
 
     footer div.footer-mid .text p {
         padding: 3px 0;
+        cursor:pointer;
     }
 
     footer div.footer-top .redes {
