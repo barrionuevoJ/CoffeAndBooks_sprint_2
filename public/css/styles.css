@@ -387,7 +387,7 @@ footer div.footer-left {
 
 }
 
-section div.carrito article {
+/* section div.carrito article {
     display: flex;
     padding: 20px;
     width: 85%;
@@ -412,4 +412,4 @@ section .carrito article .izquierda .info{
 
 section div.carrito article div.izquierda img {
     width: 50%;
-}
+} */
