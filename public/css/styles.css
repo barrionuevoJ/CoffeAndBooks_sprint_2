@@ -89,6 +89,20 @@ footer div.footer-left {
         align-items: center;
     }
 
+    header div.titulo {
+        display: flex;
+        flex: 2;
+    }
+
+    header div.logo-header {
+        display: flex;
+        flex: 1;
+    }
+
+    header div.logo-header img {
+        width: 70%;
+    }
+
     header h1 {
         padding-left: 4vw;
         font-size: 1.8em;
@@ -113,6 +127,9 @@ footer div.footer-left {
     }
 
     div.burger-menu {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
         text-align: center;
     }
 
@@ -129,11 +146,7 @@ footer div.footer-left {
         padding: 2vh;
         align-items: flex-start;
     }
-
-    footer div.footer-left {
-        
-    }
-
+    
     footer div.footer-left .contacts h4 {
         padding: 10px 0px;
         text-align: center;
@@ -151,14 +164,14 @@ footer div.footer-left {
 
     footer div.footer-mid .text p {
         padding: 3px 0;
-        cursor:pointer;
+        cursor: pointer;
     }
 
     footer div.footer-top .redes {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+
     }
 
     footer div.footer-top .redes i {
@@ -167,11 +180,11 @@ footer div.footer-left {
         color: black;
     }
 
-    .redes{
+    .redes {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }   
+    }
 
     footer div.footer-top .redes p {
         padding: 5px 0;
@@ -204,6 +217,10 @@ footer div.footer-left {
 
     header div.titulo {
         display: none;
+    }
+
+    header div.logo-header img {
+        width: 15%;
     }
 
     header div.left-side {
@@ -289,10 +306,6 @@ footer div.footer-left {
         justify-content: space-between;
         padding: 7vh;
         align-items: flex-start;
-    }
-
-    footer div.footer-left {
-        
     }
 
     footer div.footer-left .contacts h4 {
