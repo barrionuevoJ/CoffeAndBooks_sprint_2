@@ -75,6 +75,7 @@ footer {
 
 footer div.copyright {
     color: white;
+    background-color: #93c8e1;
 }
 
 footer div.footer-left {
@@ -196,7 +197,6 @@ footer div.footer-left {
     footer div.copyright {
         text-align: center;
         font-size: 1em;
-        background-color: #b607af;
         border-top: none;
     }
 
@@ -380,7 +380,6 @@ footer div.footer-left {
         font-size: 1em;
         border-top: 1px solid #7a2e76;
         padding: 5vh;
-        background-color: #7d0078;
         width: 90%;
     }
 
