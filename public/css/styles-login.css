@@ -32,7 +32,7 @@ html{
 }
 
 .Formulario {
-
+  padding-bottom: 105px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,9 +79,13 @@ html{
 #check-pass {
   text-align: center;
 }
+#pass-check {
+  accent-color: #7D0078;
+}
 .Formulario:focus + .input-label {
   color: #ea00ff;
 }
+
 
 
 button {
@@ -136,32 +140,163 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #7d0078;
-}
-
-footer div.redes {
-  display: flex;
-  flex-direction: column;
   color: white;
 }
 
-footer div.redes i {
-  color: black;
+footer div.copyright {
+  color: white;
 }
-
-
 
 @media (min-width: 361px) {
   footer div.footer-top {
     display: flex;
     justify-content: space-between;
     padding: 2vh;
+    align-items: flex-start;
+}
+
+footer div.footer-left {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+footer div.footer-left .contacts h4 {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+footer div.footer-left p {
+    font-size: 0.9em;
+}
+
+footer div.footer-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div.footer-mid .text p {
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+footer div.footer-top .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div.footer-top .redes i {
+    margin-right: 5px;
+    color: black;
+}
+
+footer div.footer-top .redes p {
+    padding: 5px 0;
+}
+
+footer div.subscribe {
+    display: none;
 }
 
 footer div.copyright {
     text-align: center;
     font-size: 1em;
-    font-weight: bold;
     background-color: #b607af;
+    border-top: none;
 }
+}
+
+@media (min-width: 1024px) {
+  footer div.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 7vh;
+    align-items: flex-start;
+}
+
+footer div.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div.footer-left .contacts h4 {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+footer div.footer-left p {
+    font-size: 0.9em;
+}
+
+footer div.footer-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div.footer-mid .text p {
+    padding: 3px 0;
+}
+
+footer div.footer-top .redes {
+    display: none;
+}
+
+footer div.subscribe {
+    display: block;
+}
+
+footer div.subscribe div.mail {
+    display: flex;
+    margin-top: 2vh;
+}
+
+footer div.subscribe .mail button,
+footer div.subscribe .mail input {
+    padding: 15px 12px;
+    border-style: none;
+    outline: none;
+}
+
+footer div.subscribe .mail input {
+    border-radius: 8px 0 0 8px;
+}
+
+footer div.logoCopy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div.subscribe .mail button {
+    background-color: #478eff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+}
+
+footer div.logoCopy span {
+    width: 0;
+}
+
+
+footer div.copyright {
+    display: flex;
+    text-align: center;
+    font-size: 1em;
+    border-top: 1px solid #7a2e76;
+    padding: 5vh;
+    background-color: #7d0078;
+    width: 90%;
+}
+
+footer div.copyright span {
+    text-align: center;
+    font-size: 1em;
+    border-top: none;
+    width: 45%;
+  }
 }

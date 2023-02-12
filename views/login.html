@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles-login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
     <title>Coffe&Books</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
                         <label for="firstname" class="input-label"> Nombre de Usuario</label>
                     </div>
                     <div>
-                    <input type="checkbox" id="pass-check"><br><label id="check-pass"for="pass-check">Recordar contraseña</label>
+                    <input type="checkbox" id="pass-check"><br><label id="check-pass" for="pass-check">Recordar contraseña</label>
                     <br>
                     <p><a href="">¿Olvidó su contraseña?</a></p>    
                     </div>                      
@@ -57,19 +58,52 @@
     </main>
     <footer>
         <div class="footer-top">
-            <div class="logo-footer">
-                <img src="" alt="Logo">
+            <div class="footer-left">
+                <div class="logo-footer">
+                    <img src="images/logo.png" alt="Logo" width="7%">
+                </div>
+                <div class="contacts">
+                    <h4>+54 (7635) 547-12-97</h4>
+                    <p>SoporteTecnicoC&B@gmail.com</p>
+                </div>
             </div>
-  
-            <div class="redes">
-                <h4>Siguenos en:</h4>
-                <p><i class="fa-brands fa-facebook"></i>Coffe&Books</p>
-                <p><i class="fa-brands fa-instagram"></i>Coffe&Books</p>
+
+            <div class="footer-mid">
+                <h4>Mapa del sitio</h4>
+                <div class="text">
+                    <p>Libros</p>
+                    <p>Sobre nosotros</p>
+                    <p>Información</p>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="redes">
+                    <h4>Siguenos en:</h4>
+                    <p><i class="fa-brands fa-facebook"></i>Coffe&Books</p>
+                    <p><i class="fa-brands fa-instagram"></i>Coffe&Books</p>
+                </div>
+                <div class="subscribe">
+                    <h4>Suscribete</h4>
+                    <div class="mail">
+                        <input type="mail" name="subscribe" id="sub" minlength="3"
+                            placeholder="Obten avisos de productos">
+                        <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                    </div>
+                </div>
             </div>
         </div>
-  
+
         <div class="copyright">
-            <span>Copyright © 2023 Coffe & Books.Todos los derechos reservados.</span>
+            <div class="redes">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="logoCopy">
+                <span>Productos de </span>
+                <img src="images/logo.png" alt="logo" width="7%">
+            </div>
+            <span><b>© 2023 Coffe & Books.Todos los derechos reservados.</b></span>
         </div>
     </footer>
 </body>
