@@ -77,6 +77,12 @@ footer div.copyright {
     color: white;
 }
 
+footer div.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (min-width: 361px) {
     header {
         justify-content: space-between;
@@ -125,9 +131,7 @@ footer div.copyright {
     }
 
     footer div.footer-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        
     }
 
     footer div.footer-left .contacts h4 {
@@ -276,6 +280,10 @@ footer div.copyright {
         display: none;
     }
 
+    footer {
+        align-items: center;
+    }
+
     footer div.footer-top {
         display: flex;
         justify-content: space-between;
@@ -284,9 +292,7 @@ footer div.copyright {
     }
 
     footer div.footer-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        
     }
 
     footer div.footer-left .contacts h4 {
@@ -310,6 +316,12 @@ footer div.copyright {
 
     footer div.footer-top .redes {
         display: none;
+    }
+
+    footer div.copyright div.redes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     footer div.subscribe {
