@@ -13,7 +13,7 @@ body {
 
 header {
     display: flex;
-    background-color: #7d0078;
+    background-color: #a6d5eb;
 }
 
 main section.offers,
@@ -59,7 +59,7 @@ main section article button.btn-compra {
     border-radius: 25px;
     border-style: none;
     box-shadow: 0 5px 10px rgb(0 0 0 / 52%);
-    background-color: #7c0077;
+    background-color: #a6d5eb;
     cursor: pointer;
     color: white;
 }
@@ -69,7 +69,7 @@ main section article button.btn-compra {
 footer {
     display: flex;
     flex-direction: column;
-    background-color: #7d0078;
+    background-color: #a6d5eb;
     color: white;
 }
 
