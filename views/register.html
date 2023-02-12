@@ -1,74 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles-register.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
     <title>Coffe&Books</title>
 </head>
+
 <body>
-   
+    <header>
+        <!-- Divs con clase titulo y burger para cel-->
+        <div class="titulo">
+            <h1>Coffe & Books</h1>
+        </div>
+        <div class="left-side">
+            <a href="/">INICIO</a>
+            <a href="#offers">LIBROS</a>
+        </div>
+        <div class="logo-header">
+            <img src="images/logo.png" alt="Logo" width="15%">
+        </div>
+        <div class="right-side">
+            <a href="/login" class="account">INICIAR SESION</a>
+            <a href="/register" class="account">REGISTRARSE</a>
+            <a href="/productCart" class="cart"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
+    </header>
+
     <main>
         <div class="box-formulario">
-            
+
             <div class="Caja-form">
-              <form  method="POST">
-                  <div class="Formulario">
-                    <div class="input-user">
-                         <input
-                        type="password"
-                        name="contraUsuario"
-                        id="contraUsuario"
-                        placeholder="Ingrese su contraseña"
-                        class="inputs"
-                        />
-                        <label for="contraUsuario" class="input-label"> Contraseña </label>
-                       
-                        <input
-                        type="text"
-                        name="nombreUsuario"
-                        id="nombreUsuario"
-                        placeholder="Ingrese Usuario"
-                        class="inputs"
-                        />
-                        <label for="firstname" class="input-label"> Nombre de Usuario</label>
+                <form method="POST">
+                    <div class="Formulario">
+                        <div class="input-user">
+                            <input type="password" name="contraUsuario" id="contraUsuario"
+                                placeholder="Ingrese su contraseña" class="inputs" />
+                            <label for="contraUsuario" class="input-label"> Contraseña </label>
+
+                            <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Ingrese Usuario"
+                                class="inputs" />
+                            <label for="firstname" class="input-label"> Nombre de Usuario</label>
+                        </div>
+                        <div class="input-pass">
+                            <input type="password" name="contraUsuario" id="contraUsuario"
+                                placeholder="Ingrese su contraseña" class="inputs" />
+                            <label for="firstname" class="input-label"> Repita su contraseña</label>
+                            <input type="text" name="correoUsuario" id="correoUsuario" placeholder="Ingrese su correo"
+                                class="inputs" />
+                            <label for="firstname" class="input-label"> Correo Electronico</label>
+
+
+                        </div>
+                        <button class="btn-Iniciar">
+                            Registrarse
+                        </button>
                     </div>
-                    <div class="input-pass">
-                        <input
-                        type="password"
-                        name="contraUsuario"
-                        id="contraUsuario"
-                        placeholder="Ingrese su contraseña"
-                        class="inputs"
-                        />
-                        <label for="firstname" class="input-label"> Repita su contraseña</label>
-                        <input
-                        type="text"
-                        name="correoUsuario"
-                        id="correoUsuario"
-                        placeholder="Ingrese su correo"
-                        class="inputs"
-                        />
-                        <label for="firstname" class="input-label"> Correo Electronico</label>
-                        
-                    
-                    </div>
-                    <button class="btn-Iniciar">
-                      Registrarse
-                  </button>
-                </div>
-                  
-                  
-                  
-                  
-                  </div>
-             
-          
-              </form>
+
+
+
+
             </div>
-          </div>
-          
+
+
+            </form>
+        </div>
+        </div>
+
     </main>
     <footer>
         <div class="footer-top">
@@ -121,4 +126,5 @@
         </div>
     </footer>
 </body>
+
 </html>
