@@ -79,9 +79,13 @@ html{
 #check-pass {
   text-align: center;
 }
+#pass-check {
+  accent-color: #7D0078;
+}
 .Formulario:focus + .input-label {
   color: #ea00ff;
 }
+
 
 
 button {
