@@ -4,7 +4,8 @@
   "description": "<h1>Grupo 2 \"Coffe&Books\" - Sprint 2</h1>",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "test": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
