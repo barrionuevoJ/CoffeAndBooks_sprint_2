@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    color: black;
 }
 
 header {
@@ -61,7 +62,6 @@ main section article button.btn-compra {
     box-shadow: 0 5px 10px rgb(0 0 0 / 52%);
     background-color: #a6d5eb;
     cursor: pointer;
-    color: white;
 }
 
 /* Footer */
@@ -70,11 +70,9 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #a6d5eb;
-    color: white;
 }
 
 footer div.copyright {
-    color: white;
     background-color: #93c8e1;
 }
 
@@ -107,7 +105,6 @@ footer div.footer-left {
     header h1 {
         padding-left: 4vw;
         font-size: 1.6em;
-        color: #ffffffd6;
     }
 
     header div.left-side {
@@ -136,7 +133,6 @@ footer div.footer-left {
     }
 
     div.burger-menu i {
-        color: #FFF;
         font-size: 3.5em;
         margin: 5vw 7vw 5vw 0px;
         padding: 1vw;
@@ -177,7 +173,6 @@ footer div.footer-left {
 
     footer div.footer-top .redes i {
         margin-right: 5px;
-        color: black;
     }
 
     .redes {
@@ -233,11 +228,11 @@ footer div.footer-left {
     header div.left-side a {
         margin: 0 2vw;
         text-decoration: none;
-        color: white;
+        color: black;
     }
 
     header div.left-side a:hover {
-        border-bottom: 1px solid violet;
+        border-bottom: 1px solid rgb(7, 107, 124);
         color: black;
     }
 
@@ -392,7 +387,7 @@ footer div.footer-left {
 
 }
 
-section div.carrito article {
+/* section div.carrito article {
     display: flex;
     padding: 20px;
     width: 85%;
@@ -417,4 +412,4 @@ section .carrito article .izquierda .info{
 
 section div.carrito article div.izquierda img {
     width: 50%;
-}
+} */

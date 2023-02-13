@@ -1,0 +1,26 @@
+section.carrito article {
+    display: flex;
+    padding: 20px;
+    width: 85%;
+    background-color: #bdbf95;
+    justify-content: space-between;
+}
+
+section.carrito {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+section.carrito article div.izquierda {
+    display: flex;
+}
+
+section.carrito article .izquierda .info{
+    display: flex;
+    flex-direction:column;
+}
+
+section.carrito article div.izquierda img {
+    width: 50%;
+}
