@@ -42,7 +42,8 @@ html{
 .Formulario > div {
   width: 50%;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -78,6 +79,7 @@ html{
 }
 #check-pass {
   text-align: center;
+  margin-right: 10px;
 }
 #pass-check {
   accent-color: #7D0078;
@@ -86,6 +88,10 @@ html{
   color: #ea00ff;
 }
 
+
+div.input-password {
+  margin-top: 15px;
+}
 
 
 button {

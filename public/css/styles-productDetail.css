@@ -1,0 +1,134 @@
+section.product-detail {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+}
+
+section.product-detail article {
+  background-size: 50%;
+}
+
+section.product-detail div.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 150%;
+  font-style: normal;
+}
+
+section.product-detail div.image {
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+section.product-detail div.description {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 5;
+  font-size: 150%;
+
+}
+
+section.product-detail div.prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+section.product-detail div.Des {
+  margin-top: 5%;
+  font-size: 150%;
+}
+
+section.product-detail div.genre {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+  padding: 1%;
+  background-color: rgba(180, 192, 240, 0.386);
+  border-radius: 10%;
+}
+
+section.product-detail div.cart {
+  display: flex;
+  margin: 35px 0;
+  border-radius: 10%;
+  padding: 1%;
+  background-color: rgb(180, 192, 240);
+  justify-content: center;
+}
+
+@media (min-width: 769px) {
+  section.product-detail div.image {
+    width: 20vw;
+    height: 60vh;
+  }
+
+  section.product-detail div.image img{
+    width: 100%;
+  }
+
+  section.product-detail div.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  section.product-detail div.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* section.product-detail div.product h1 {
+    font-size: 2em;
+  } */
+
+  /* section.product-detail div.genre {
+    display: flex;
+    justify-content: center;
+    margin-top: -22%;
+    margin-left: 38%;
+    margin-bottom: 2%;
+    margin-right: 38%;
+  } */
+
+  section.product-detail div.descripcion {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px 0;
+    /* display: flex;
+    justify-content: center;
+    font-size: 250%;
+    margin-left: -13%;
+    margin-top: -0%; */
+  }
+
+  section.product-detail div.description {
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    margin-top: 0%;
+    margin-left: 40%;
+    margin-right: 20%;
+    background-color: aliceblue;
+  }
+
+  /* section.product-detail div.prices {
+    display: flex;
+    justify-content: space-around;
+    font-size: 150%;
+    margin-left: 25%;
+    margin-right: 7%;
+  } */
+
+  section.product-detail div.cart {
+    font-size: 1em;
+}
+
+}
