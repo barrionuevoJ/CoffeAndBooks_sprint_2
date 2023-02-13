@@ -387,7 +387,7 @@ footer div.footer-left {
 
 }
 
-/* section div.carrito article {
+/* section.carrito article {
     display: flex;
     padding: 20px;
     width: 85%;
@@ -395,21 +395,21 @@ footer div.footer-left {
     justify-content: space-between;
 }
 
-section div.carrito {
+section.carrito {
     display: flex;
     justify-content: center;
     margin: 25px 0;
 }
 
-section div.carrito article div.izquierda {
+section.carrito article div.izquierda {
     display: flex;
 }
 
-section .carrito article .izquierda .info{
+section.carrito article .izquierda .info{
     display: flex;
     flex-direction: column;
 }
 
-section div.carrito article div.izquierda img {
+section.carrito article div.izquierda img {
     width: 50%;
 } */
