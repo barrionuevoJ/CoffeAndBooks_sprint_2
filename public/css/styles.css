@@ -73,7 +73,7 @@ footer {
     background-color: #a6d5eb;
 }
 
-footer div.copyright {
+footer div.copyright-info {
     background-color: #93c8e1;
 }
 
@@ -81,6 +81,7 @@ footer div.footer-left {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 @media (min-width: 361px) {
@@ -190,7 +191,7 @@ footer div.footer-left {
         display: none;
     }
 
-    footer div.copyright {
+    footer div.copyright-info {
         text-align: center;
         font-size: 1em;
         border-top: none;
@@ -299,8 +300,13 @@ footer div.footer-left {
     footer div.footer-top {
         display: flex;
         justify-content: space-between;
-        padding: 7vh;
-        align-items: flex-start;
+        padding: 2vh;
+        align-items: center;
+    }
+
+    footer div.footer-left .logo-footer {
+        display: flex;
+        justify-content: center;
     }
 
     footer div.footer-left .contacts h4 {
@@ -316,20 +322,28 @@ footer div.footer-left {
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex: 2;
     }
 
     footer div.footer-mid .text p {
         padding: 3px 0;
     }
 
+    footer div.footer-top .footer-right {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+
     footer div.footer-top .redes {
         display: none;
     }
 
-    footer div.copyright div.redes {
+    footer div.copyright-info div.redes {
         display: flex;
         flex-direction: row;
         align-items: center;
+        flex: 1;
     }
 
     footer div.subscribe {
@@ -354,8 +368,22 @@ footer div.footer-left {
 
     footer div.logoCopy {
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        flex: 2;
+    }
+
+    footer div.footer-mid h4 {
+        margin-bottom: 2vh;
+    }
+
+    footer div.footer-mid .text p{
+        margin-bottom: 1vh;
+    }
+
+    footer div.footer-mid .text {
+        display: flex;
+        flex-direction: column;
     }
 
     footer div.subscribe .mail button {
@@ -365,52 +393,40 @@ footer div.footer-left {
         border-radius: 0 8px 8px 0;
     }
 
-    footer div.logoCopy span {
-        width: 0;
-    }
-
-
-    footer div.copyright {
+    footer div.copyright-info {
         display: flex;
         text-align: center;
         font-size: 1em;
-        border-top: 1px solid #7a2e76;
-        padding: 5vh;
-        width: 90%;
+        padding: 2vh;
+        align-items: center;
     }
 
-    footer div.copyright span {
+    footer div.copyright-info span {
         text-align: center;
         font-size: 1em;
-        border-top: none;
-        width: 45%;
+        font-weight: bold;
+    }
+
+    footer div.copyright-info div.copyright-txt span {
+        font-size: 0.8em;
+    }
+
+    footer div.copyright-info div.copyright-txt {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+
+    footer div.copyright-info div.redes i {
+        font-size: 1.5em;
+        margin: 0 2vw;
+        color: black;
+        text-decoration: none;
+    }
+
+    footer div.footer-left .contacts {
+        display: flex;
+        flex-direction: column;
     }
 
 }
-
-/* section.carrito article {
-    display: flex;
-    padding: 20px;
-    width: 85%;
-    background-color: #bdbf95;
-    justify-content: space-between;
-}
-
-section.carrito {
-    display: flex;
-    justify-content: center;
-    margin: 25px 0;
-}
-
-section.carrito article div.izquierda {
-    display: flex;
-}
-
-section.carrito article .izquierda .info{
-    display: flex;
-    flex-direction: column;
-}
-
-section.carrito article div.izquierda img {
-    width: 50%;
-} */
