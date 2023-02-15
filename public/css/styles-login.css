@@ -94,7 +94,7 @@ div.input-password {
 }
 
 
-button {
+.Caja-form button {
   width: 200px;
   padding: 1.3em 3em;
   font-size: 12px;
@@ -112,18 +112,18 @@ button {
   outline: none;
 }
 
-button:hover {
+.Caja-form button:hover {
   background-color: #23c483;
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
   transform: translateY(-7px);
 }
 
-button:active {
+.Caja-form button:active {
   transform: translateY(-1px);
 }
 
-.check input{
+.Caja-form .check input{
   accent-color: red;
   justify-items: right;
   margin: 0px 0px 10px 65px;
@@ -136,173 +136,7 @@ main{
 }
 
 
-form{
+.Caja-form form{
   display: flex;
   flex-direction: column;
-}
-
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #7d0078;
-  color: white;
-}
-
-footer div.copyright {
-  color: white;
-}
-
-@media (min-width: 361px) {
-  footer div.footer-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 2vh;
-    align-items: flex-start;
-}
-
-footer div.footer-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer div.footer-left .contacts h4 {
-    padding: 10px 0px;
-    text-align: center;
-}
-
-footer div.footer-left p {
-    font-size: 0.9em;
-}
-
-footer div.footer-mid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer div.footer-mid .text p {
-    padding: 3px 0;
-    cursor: pointer;
-}
-
-footer div.footer-top .redes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer div.footer-top .redes i {
-    margin-right: 5px;
-    color: black;
-}
-
-footer div.footer-top .redes p {
-    padding: 5px 0;
-}
-
-footer div.subscribe {
-    display: none;
-}
-
-footer div.copyright {
-    text-align: center;
-    font-size: 1em;
-    background-color: #b607af;
-    border-top: none;
-}
-}
-
-@media (min-width: 1024px) {
-  footer div.footer-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 7vh;
-    align-items: flex-start;
-}
-
-footer div.footer-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer div.footer-left .contacts h4 {
-    padding: 10px 0px;
-    text-align: center;
-}
-
-footer div.footer-left p {
-    font-size: 0.9em;
-}
-
-footer div.footer-mid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer div.footer-mid .text p {
-    padding: 3px 0;
-}
-
-footer div.footer-top .redes {
-    display: none;
-}
-
-footer div.subscribe {
-    display: block;
-}
-
-footer div.subscribe div.mail {
-    display: flex;
-    margin-top: 2vh;
-}
-
-footer div.subscribe .mail button,
-footer div.subscribe .mail input {
-    padding: 15px 12px;
-    border-style: none;
-    outline: none;
-}
-
-footer div.subscribe .mail input {
-    border-radius: 8px 0 0 8px;
-}
-
-footer div.logoCopy {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer div.subscribe .mail button {
-    background-color: #478eff;
-    color: white;
-    cursor: pointer;
-    border-radius: 0 8px 8px 0;
-}
-
-footer div.logoCopy span {
-    width: 0;
-}
-
-
-footer div.copyright {
-    display: flex;
-    text-align: center;
-    font-size: 1em;
-    border-top: 1px solid #7a2e76;
-    padding: 5vh;
-    background-color: #7d0078;
-    width: 90%;
-}
-
-footer div.copyright span {
-    text-align: center;
-    font-size: 1em;
-    border-top: none;
-    width: 45%;
-  }
 }
