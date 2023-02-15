@@ -160,10 +160,6 @@ footer div.footer-top .footer-right {
         align-items: flex-start;
     }
 
-    footer div.footer-left .contacts {
-        display: none;
-    }
-
     footer div.footer-left p {
         font-size: 0.9em;
     }
@@ -209,15 +205,6 @@ footer div.footer-top .footer-right {
         border-top: none;
     }
 
-    footer div.logo-footer {
-        display: flex;
-        justify-content: center;
-    }
-
-    footer div.logo-footer img {
-        width: 100%;
-    }
-
     footer div.footer-mid div.title {
         width: 100%;
         text-align: center;
@@ -230,6 +217,41 @@ footer div.footer-top .footer-right {
         align-items: center;
     }
 
+
+    footer div.footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 2vh;
+        align-items: flex-start;
+    }
+
+    footer div.footer-top .footer-left,
+    footer div.footer-top .footer-mid,
+    footer div.footer-top .footer-right{
+        font-size: 0.8em;
+    }
+
+
+    footer div.footer-left .contacts h4 {
+        padding: 5vw 0px;
+        text-align: center;
+    }
+
+
+    footer div.footer-mid h4 {
+        margin-bottom: 2vh;
+    }
+
+
+    footer div.footer-mid .text p {
+        margin-bottom: 1vh;
+    }
+
+
+    footer div.footer-mid .text {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -334,16 +356,11 @@ footer div.footer-top .footer-right {
         display: flex;
         justify-content: space-between;
         padding: 2vh;
-        align-items: center;
-    }
-
-    footer div.footer-left .logo-footer {
-        display: flex;
-        justify-content: center;
+        align-items: flex-start;
     }
 
     footer div.footer-left .contacts h4 {
-        padding: 10px 0px;
+        padding: 2vw 0px;
         text-align: center;
     }
 
@@ -368,11 +385,15 @@ footer div.footer-top .footer-right {
 
     footer div.subscribe {
         display: block;
+        width: 75%;
     }
 
     footer div.subscribe div.mail {
-        display: flex;
         margin-top: 2vh;
+    }
+
+    footer div.footer-right div.subscribe div.mail form {
+        display: flex;
     }
 
     footer div.subscribe .mail button,
@@ -384,6 +405,7 @@ footer div.footer-top .footer-right {
 
     footer div.subscribe .mail input {
         border-radius: 8px 0 0 8px;
+        width: 100%;
     }
 
     footer div.copyright-info .logoCopy {
@@ -449,7 +471,11 @@ footer div.footer-top .footer-right {
         flex-direction: column;
     }
 
-    footer div.logo-footer img {
-        width: 25%;
+    footer div.footer-left {
+        width: 75vw;
+    }
+
+    footer div.footer-top .footer-left, footer div.footer-top .footer-mid, footer div.footer-top .footer-right {
+        font-size: 1em;
     }
 }
