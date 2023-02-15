@@ -55,8 +55,8 @@ section.product-detail div.genre {
 section.product-detail div.cart {
   display: flex;
   margin: 35px 0;
-  border-radius: 10%;
-  padding: 1%;
+  border-radius: 10px;
+  padding: 2%;
   background-color: rgb(180, 192, 240);
   justify-content: center;
 }
