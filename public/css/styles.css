@@ -287,19 +287,20 @@ footer div.footer-top .footer-right {
     header div.right-side a.account {
         padding: 2%;
         border-radius: 10px;
-        background-color: #b607af;
+        background-color: #709ce1;
         font-size: 12px;
         text-align: center;
     }
 
     header div.right-side a.account:hover {
-        background-color: #5e075b;
+        background-color: #648bc9;
     }
 
     header div.right-side a.cart {
         margin: 0;
         font-size: 1.4em;
     }
+
 
     main {
         width: 90%;
@@ -319,7 +320,7 @@ footer div.footer-top .footer-right {
 
 
     main section article button.btn-compra:hover {
-        background-color: #5e075b;
+        background-color: #87b9d1;
     }
 
     div.burger-menu {
